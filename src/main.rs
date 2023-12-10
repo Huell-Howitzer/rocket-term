@@ -47,7 +47,7 @@ impl Application for TerminalApp {
     }
 
     fn title(&self) -> String {
-        String::from("Rust Terminal Emulator")
+        String::from("Rocket Term")
     }
 
     fn update(&mut self, message: Self::Message) -> Command<Self::Message> {
